@@ -1,0 +1,231 @@
+[
+    {
+        "name": "Tillage Classification",
+        "id": "tillage_classification",
+        "time": "September 2021 - Present",
+        "area": ["ml"],
+        "skills": [
+            "Computer Vision",
+            "Python",
+            "Data Processing",
+            "Machine Learning",
+            "OpenCV",
+            "TensorFlow",
+            "Pytorch",
+            "CNN",
+            "ResNet",
+            "AWS"
+        ],
+        "link": "none",
+        "description": "I have applied Computer Vision techniques to classify field tillages given thousands of images. I have managed to improve the model accuracy from 30-50% to 70-80% through model selection, image preprocessing, and fine-tuning. I was also responsible for checking the validity of the image labels, where I have helped relabel the images with my model that has been classifying better than others.",
+        "purpose": "This is affiliated with the ongoing research of Dr. Guan’s lab as a part of the NCSA SPIN program. Since it is a part of unpublished research, details are temporarily unavailable.",
+        "img": "tillage_classification0.png",
+        "img_dir": "tillage_classification",
+        "img_number": 1
+    },
+    {
+        "name": "Face Mask Detection",
+        "id": "face_mask_detection",
+        "time": "November 2021 - December 2021",
+        "area": ["ml"],
+        "skills": [
+            "Computer Vision",
+            "Python",
+            "Data Processing",
+            "Machine Learning",
+            "OpenCV",
+            "Pytorch",
+            "CNN",
+            "Computational Photography"
+        ],
+        "link": "https://github.com/tomoyoshki/CS-445-FA21-Final-Project",
+        "description": "This is the final project for CS 445 Computational Photography at UIUC. My team and I implemented face finding algorithm, convolution neural network, and ResNet34 pre-trained model to classify the state of a person wearing a mask. We have used Haarcascade frontal face detection to detect the face, and then have that face as the input for our models. CNN model has two classification outputs: has mask and no mask. ResNet34 model has three: has a mask, no mask, and improperly wearing a mask.",
+        "purpose": "In the era of COVID-19, although with vaccines, the primary line of defense still lies upon face masks. In many countries, we have seen that there are manual people checking whether or not people are wearing masks properly. Therefore, the idea of creating a mask detector sparks our interest. In this project, we aim to apply computational photography, computer vision, and machine learning to create a face mask detector. During this process, we hope to apply what we have learned during the class and challenge ourselves with essential techniques in Computer Vision that can potentially protect our community.",
+        "img": "facemask_detection1.gif",
+        "img_dir": "facemask_detection",
+        "img_number": 2
+    },
+    {
+        "name": "Object Segmentation",
+        "id": "object_segmentation",
+        "time": "November 2021 - Present",
+        "area": ["ml"],
+        "skills": [
+            "Python",
+            "Data Processing",
+            "Machine Learning",
+            "OpenCV",
+            "ResNet",
+            "Pytorch",
+            "AWS"
+        ],
+        "link": "none",
+        "description": "I am writing a program to count the number of objects in a field image taken by researchers at UIUC. I am integrating both Semantic Segmentation and Instance Segmentation with Mask R-CNN and ResNet to improve the overall result of counting. I have improved the accuracy with extensive image preprocessing and optimized the counting process with the output to provide a smoother result for the researchers.",
+        "purpose": "This is a part of a study conducted by researchers at UIUC. Since it is associated with the research that is yet published, details are temporarily unavailable.",
+        "img": "object0.png",
+        "img_dir": "object",
+        "img_number": 1
+    },
+    {
+        "name": "Personal Website",
+        "id": "personal_website",
+        "time": "December 2021 - Present",
+        "area": ["fe"],
+        "skills": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "link": "https://www.tomoyoshikimura.com",
+        "description": "I designed this personal website to strengthen my knowledge in Front-end development as well as the React Framework. I am writing my own CSS with various engaging parts, such as the animated title on the front page, dark theme for better user experience, and elegant minimalistic layout for easy access to desirable content. I have improved the smoothness of the website by switching the implementation from pure HTML, CSS, and JavaScript to React, which has exceptional control over the project and many helpful packages to alleviate the workload.",
+        "purpose": "I decided to build this website mainly for application to graduate college and the industry. Building a website could boost my knowledge in Frontend development while creating a stronger visual effect for the admission office and the interviewer than a single-page resume. The portfolio section could also help me present and keep track of my projects, and hopefully could inspire others in the future.",
+        "img": "personal_website.png",
+        "img_dir": "personal_website",
+        "img_number": 4
+    },
+    {
+        "name": "Hybrid Images",
+        "id": "hybrid_images",
+        "time": "September 2021",
+        "area": ["cp"],
+        "skills": [
+            "OpenCV",
+            "Image Processing",
+            "Gaussian Filter",
+            "Laplacian Filter",
+            "Laplacian Pyramid"
+        ],
+        "link": "https://github.com/tomoyoshki/hybrid_images",
+        "description": "This project applies image filtering and frequency representations to create hybrid images. We are using the approach described in the paper ‘Hybrid Images’ by Oliva, Torralba, and Schyns. I have blended the images with Gaussian Filters and Laplacian Filters to change the frequency of the two, and then it would lead to a hybrid image with different interpretations at different distances.",
+        "purpose": "none",
+        "img": "hi0.png",
+        "img_dir": "hi",
+        "img_number": 2
+    },
+    {
+        "name": "Image Quilting",
+        "id": "image_quilting",
+        "time": "October 2021",
+        "area": ["cp"],
+        "skills": [
+            "OpenCV",
+            "Image Processing",
+            "Gaussian Filter",
+            "Laplacian Filter",
+            "Seam Finding",
+            "Texture Transfer",
+            "Texture Synthesis"
+        ],
+        "link": "https://github.com/tomoyoshki/image_quilting",
+        "description": "This project implements the image quilting algorithm for texture synthesis and transfer described in the paper ‘Image Quilting for Texture Synthesis and Transfer’ by Efros and Freeman. I am applying Seam Finding to find the most correlated patch to generate a new patch in a different location of the new image, and then cut the overlapping region with cutting methods for the smoothest transition between the two patches. There are many interesting results such as my image in a completely different art style.",
+        "purpose": "none",
+        "img": "iq0.png",
+        "img_dir": "iq",
+        "img_number": 3
+    },
+    {
+        "name": "Gradient Domain Fusion",
+        "id": "gradient_domain_fusion",
+        "time": "October 2021 - November 2021",
+        "area": ["cp"],
+        "skills": [
+            "OpenCV",
+            "Image Processing",
+            "Gradient Domain Fusion",
+            "Poisson Blending",
+            "Custom Gray Scale",
+            "Laplacian Pyramid Blending"
+        ],
+        "link": "https://github.com/tomoyoshki/gradient_domain_fusion",
+        "description": "This project explores gradient-domain processing, a technique with a broad set of applications including blending, tone-mapping, and non-photorealistic rendering. I have implemented Poisson Blending, a method introduced in the paper ‘Poisson Image Editing’ by UK Microsoft Research team. Check out the Github repo for more details and examples I created. ",
+        "purpose": "none",
+        "img": "gdf0.png",
+        "img_dir": "gdf",
+        "img_number": 2
+    },
+    {
+        "name": "Image Based Lighting",
+        "id": "image_based_lighting",
+        "time": "November 2021",
+        "area": ["cp"],
+        "skills": [
+            "OpenCV",
+            "Image Processing",
+            "Image Based Lighting",
+            "High Dynamic Range Images",
+            "Panoramic Transformations",
+            "Blender"
+        ],
+        "link": "https://github.com/tomoyoshki/image_based_lighting",
+        "description": "This project is mainly related to High Dynamic Range Imaging and Image Based Lighting. I have implemented functions that create estimation of HDR images given several Low Dynamic Range images. Image Based Lighting is also implemented to create the panoramic transformation, and I used the software Blender to create objects based on the lighting from the image. Check out the Github repo for more details and examples I created.",
+        "purpose": "none",
+        "img": "ibl0.png",
+        "img_dir": "ibl",
+        "img_number": 2
+    },
+    {
+        "name": "Airline Virus Simulation",
+        "id": "airline_virus_simulation",
+        "time": "April 2021 - May 2021",
+        "area": ["be"],
+        "skills": [
+            "Data Structure",
+            "C++",
+            "Path finding Algorithm",
+            "Traversals",
+            "Graph mapping"
+        ],
+        "link": "https://github.com/tomoyoshki/airline-virus-simulation",
+        "description": "This is the final project for our Data Structure course at UIUC. My team designed a virus simulator through airlines based on the Routes dataset provided by OpenFlights. We treated the airports as nodes and each airline as an edge with the number of routes as the weight. We treated the entire dataset as a graph where we implemented Prim’s algorithm to simulate the path with the highest risk of virus infection. We also performed map projection for visualization of the entire graph.",
+        "purpose": "It was during the era of COVID-19 when we were assigned to this project. We hope to apply what we learned in the class to solve real-life problems. We hope to use this project to warn the risk of traveling through airlines during this novel period by presenting the potential harm it has to other places.",
+        "img": "airline_virus0.png",
+        "img_dir": "airline_virus",
+        "img_number": 4
+    },
+    {
+        "name": "React Native Decide Efficiently",
+        "id": "deEff",
+        "time": "September 2021 - November 2021",
+        "area": [
+            "fe",
+            "md",
+            "db"
+        ],
+        "skills": [
+            "App Development",
+            "CSS",
+            "UI Design",
+            "JavaScript",
+            "Database",
+            "User management",
+            "Firebase"
+        ],
+        "link": "none",
+        "description": "I am using React Native Framework to build this App that implements algorithms to help users to decide with the form of questions. There are multiple questions generated to calculate the weighted score of the objects users would like to decide between and eventually provide users the answer that maximizes the efficiency. Firebase Authentication and Database are used for backend user data processing, and frontend elements like HTML, CSS, and JavaScript are responsible for the smooth User Interface as shown.",
+        "purpose": "A high school friend of mine once judged my indecisiveness. I struggle with small decisions like choosing a flavor of ice cream. I am scared of making the wrong decisions and want to explore all the possibilities. I dislike my indecision, though. Efficiency should be my priority, not wasting time hesitating. After years of reflecting on my indecisive character, I realized that others face the same issue. This is the inspiration for my second app: DeEff (Decide Efficiently), which has the purpose to help people make a decision efficiently.",
+        "img": "deEffLogo.png",
+        "img_dir": "deEff",
+        "img_number": 8
+    },
+    {
+        "name": "Broome COVID-19",
+        "id": "broome_covid19",
+        "time": "May 2020 - July 2020",
+        "area": ["md", "db"],
+        "skills": [
+            "Firebase Database",
+            "UI Design",
+            "Data visualization",
+            "App Development",
+            "XCode",
+            "Swift"
+        ],
+        "link": "https://github.com/tomoyoshki/Broome-COVID-19",
+        "description": "I designed the User-Interface and front-end system with XCode and Swift. Backend database processing was implemented with the Firebase database and Python Selenium. The user could easily get the number of active cases and the cumulative case of a specific area within Broome County. Data visualization is also implemented with Macaw for a better representation of the data.",
+        "purpose": "It was back in April 2020 when the Coronavirus pandemic hit the world. As a senior spending all my time home, I yearned to do something to help my community, and I set off my Computer Science career by creating this app to assist the public to understand and be notified with the latest statistics about COVID-19 in Broome County, New York.",
+        "img": "covidLogo.JPG",
+        "img_dir": "broome_covid19",
+        "img_number": 8
+    }
+]

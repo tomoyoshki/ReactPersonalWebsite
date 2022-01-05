@@ -1,0 +1,134 @@
+[
+    {
+        "year": 2022,
+        "semesters": [
+            {
+                "semester": "spring",
+                "courses": [
+                    {
+                        "title": "Computer Security",
+                        "type": "CS",
+                        "number": 461,
+                        "grade": "IP"
+                    },
+                    {
+                        "title": "Machine Learning",
+                        "type": "CS",
+                        "number": 446,
+                        "grade": "IP"
+                    },
+                    {
+                        "title": "Introduction to Algorithms & Models of Computation",
+                        "type": "CS",
+                        "number": 374,
+                        "grade": "IP"
+                    },
+                    {
+                        "title": "Topics in Internet of Things",
+                        "type": "CS",
+                        "number": 437,
+                        "grade": "IP"
+                    },
+                    {
+                        "title": "High Frequency Trading",
+                        "type": "IE",
+                        "number": 498,
+                        "grade": "IP"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": 2021,
+        "semesters": [
+            {
+                "semester": "fall",
+                "courses": [
+                    {
+                        "title": "Computational Photography",
+                        "type": "CS",
+                        "number": 445,
+                        "grade": "A+"
+                    },
+                    {
+                        "title": "Applied Machine Learning",
+                        "type": "CS",
+                        "number": 441,
+                        "grade": "A"
+                    },
+                    {
+                        "title": "System Programming",
+                        "type": "CS",
+                        "number": 241,
+                        "grade": "A+"
+                    },
+                    {
+                        "title": "Probability & Statistics for Computer Science",
+                        "type": "CS",
+                        "number": 361,
+                        "grade": "A+"
+                    },
+                    {
+                        "title": "Ethical & Professional Issues",
+                        "type": "CS",
+                        "number": 210,
+                        "grade": "A"
+                    }     
+                ]
+
+            },
+            {
+                "semester": "spring",
+                "courses": [
+                    {
+                        "title": "Data Structures",
+                        "type": "CS",
+                        "number": 225,
+                        "grade": "A"
+                    },
+                    {
+                        "title": "Computer Architecture",
+                        "type": "CS",
+                        "number": 233,
+                        "grade": "A+"
+                    },
+                    {
+                        "title": "Numerical Methods",
+                        "type": "CS",
+                        "number": 357,
+                        "grade": "A+"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": 2020,
+        "semesters": [
+            {
+                "semester": "fall",
+                "courses": [
+                    {
+                        "title": "Discrete Structures",
+                        "type": "CS",
+                        "number": 173,
+                        "grade": "A+"
+                    },
+                    {
+                        "title": "Applied Linear Algebra",
+                        "type": "MATH",
+                        "number": 415,
+                        "grade": "A"
+                    },
+                    {
+                        "title": "Introduction to Electronics",
+                        "type": "ECE",
+                        "number": 110,
+                        "grade": "A+"
+                    }
+                ]
+            }
+        ]
+    }
+]

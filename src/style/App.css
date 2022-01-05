@@ -1,0 +1,162 @@
+html {
+    --primaryText: rgb(19, 41, 75);
+    --primaryBackground: rgba(250, 253, 252, 1);
+    --secondaryBackground: rgba(240, 240, 240, 0.904);
+    --secondaryText: rgb(255, 85, 46);
+    --illinois1: rgb(19, 41, 75);
+    --illinois2: rgb(255, 85, 46);
+    --illinois3: rgb(255, 85, 46);
+    --illinois4: #fff;
+    --illinois5: rgb(255, 85, 46);
+    --seton1: white;
+    --seton2: #FDBA12;
+    --seton3: #004023;
+    --cardBg: rgba(0, 0, 0, 0.03);
+    --pure: white;
+    --bgImg: url(../assets/white.jpg);
+    background: var(--primaryBackground);
+    position: relative;
+}
+  
+html[data-theme="dark"] {
+    --primaryText: rgb(235, 225, 219);
+    --primaryBackground: #2B3034;
+    --secondaryBackground: #414346;
+    --secondaryText: rgba(45, 57, 216, 0.5);
+    --illinois1: rgb(255, 85, 46);
+    --illinois2: rgb(255, 255, 255);
+    --illinois3: rgb(19, 41, 75);
+    --illinois4: rgb(19, 41, 75);
+    --illinois5: #2B3034;
+    --seton1: rgb(75, 75, 75);
+    --seton2: #004023;
+    --seton3: #FDBA12;
+    --pure: black;
+    --cardBg: rgba(255, 255, 255, 0.03);
+    --bgImg: url("../assets/time_delay.jpg")
+}
+
+.WebApp {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.WebApp .buttonTheme {
+    position: fixed;
+    transition: 0.2s;
+    /* display: none; */
+    color: var(--primaryText);
+    bottom: 5px;
+    left: 5px;
+    z-index: 1000;
+}
+
+html .MobileTheme {
+    display: none;
+    position: fixed;
+    left: 5px;
+    z-index: 3000000;
+    bottom: 5px;
+}
+
+
+.Footer {
+    display: flex;
+    width: 100vw;
+    /* height: 200px; */
+    position: relative;
+    /* background-color: var(--sec); */
+    /* border-top: 1px solid var(--secondaryBackground); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-block: 30px;
+}
+
+.Footer .top {
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.Footer .top .top_half {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-block: 20px;
+}
+
+.Footer .top .top_half .footer_link {
+    font-size: calc(7px + 0.5vw);
+    color: var(--primaryText);
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .top .top_half .icon {
+    text-decoration: none;
+    color: var(--primaryText);
+    width: calc(10px + 1.5vw);
+
+}
+
+.Footer .bottom {
+    display: flex;
+    border-top: 1px solid var(--secondaryBackground);
+    width: 70%;
+    padding-top: 30px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.Footer .quote {
+    font-size: calc(7px + 0.5vw);
+    color: var(--primaryText);
+    font-family: Lora-Italic;
+}
+
+.Footer .right {
+    font-size: calc(7px + 0.5vw);
+    text-align: center;
+    font-family: Lora-Regular;
+    color: var(--primaryText);
+}
+
+@keyframes showUp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    html {
+        width: 100%; 
+        height: 100%; 
+    }
+    .WebApp {
+        width: 100%;
+        height: unset;
+        position: relative;
+    }
+
+    .WebApp .buttonTheme {
+        bottom: 10px;
+        left: 0px;
+    }
+
+    html .buttonTheme {
+        position: fixed;
+    }
+}

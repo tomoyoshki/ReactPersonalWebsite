@@ -1,0 +1,23 @@
+.drawer {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primaryBackground);
+}
+
+.drawerLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    text-decoration: none;
+    margin-block: 10px;
+    font-size: 17px;
+    border-bottom: 1px solid var(--primaryText);
+    color: var(--primaryText);
+}

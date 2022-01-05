@@ -1,25 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import './style/Main.css';
+import './style/Header.css';
+import './style/Education.css';
+import './style/Portfolio.css';
+import './style/About.css'
+import './style/MobileDrawer.css'
+import 'react-slideshow-image/dist/styles.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+import React from 'react'
+import WebApp from './Interface/WebApp'
+// import MobileApp from './Interface/MobileApp'
+
+import Button from '@material-ui/core/Button';
+import NightsStayIcon from '@material-ui/icons/NightsStay';
+import Brightness5Icon from '@material-ui/icons/Brightness5';
+
+
+class App extends React.Component {
+
+  constructor () {
+    super();
+    this.state = {
+        theme : 'dark',
+    }
+}
+handleStyleChange = () => {
+    const theme = this.state.theme === 'dark' ? 'dark' : 'light';
+    this.setState({
+        theme: theme,
+    });
+    document.documentElement.setAttribute("data-theme", theme);
+}
+
+ 
+  render() {
+    document.oncontextmenu =() => {
+      return false;
+    }
+    document.onselectstart = () => {
+      return false;
+    }
+    // const { width } = this.state;
+    // const isMobile = width <= 100;
+    // the rest is the same...
+    
+    return (
+    <div>
+      <WebApp />
+      <Button onClick = {() => {this.handleStyleChange()}} className = "MobileTheme" >
+          {this.state.theme === 'light' ? <NightsStayIcon className = "MobileThemeButton"/> : <Brightness5Icon className = "buttonIcon"/>}
+      </Button>
     </div>
-  );
+    )
+  }
 }
 
 export default App;

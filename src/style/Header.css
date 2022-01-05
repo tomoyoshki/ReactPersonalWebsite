@@ -1,0 +1,73 @@
+.header {
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primaryBackground);
+    box-shadow: 0.3mm 0.3mm 3mm #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    overflow-x: hidden;
+    z-index: 200;
+    transition: 0.3s;
+}
+
+.header .header-left {
+    font-size: calc(13px + 1vw);
+    color: var(--primaryText);
+    text-decoration: none;
+    width: 50%;
+    transform: translateX(10%);
+    /* text-align: left; */
+    z-index: 10;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.header .mobileHeader {
+    font-size: calc(13px + 1vw);
+}
+
+.header .header-right {
+    display: flex;
+    flex-direction: row;
+    z-index: 30000;
+}
+
+.header .header-right .headerButton {
+    color: var(--primaryText);
+    font-size: calc(10px + 0.8vw) ;
+    transition: 0.3s linear;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.header .header-right .headerButton:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    text-decoration: underline;
+}
+
+.MobileDrawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header .header-left {
+        width: 100%;
+    }
+}
