@@ -99,8 +99,27 @@ class EducationPage extends React.Component{
             transitionDuration: 500,
             infinite: true,
             indicators: true,
+            autoplay: false,
             easing: 'ease',
-            arrows: false,
+            // arrows: ƒal,
+            arrows: "false",
+            prevArrow: 
+                <div style={{width: "30px", marginRight: "0px", color: "var(--primaryText)"}}>
+                    <ArrowBackIosOutlinedIcon />
+                </div>,
+            nextArrow: 
+                <div style={{width: "30px", marginLeft: "0px", color: "var(--primaryText)"}}>
+                    <ArrowForwardIosOutlinedIcon />
+                </div>
+        };
+
+        const SlideProperties = {
+            duration: 5000,
+            transitionDuration: 500,
+            infinite: true,
+            autoplay: false,
+            // easing: 'ease',
+            arrows: 'false'
             // prevArrow: 
             //     <div style={{width: "30px", marginRight: "-30px", color: "var(--primaryText)"}}>
             //         <ArrowBackIosOutlinedIcon />
@@ -109,22 +128,6 @@ class EducationPage extends React.Component{
             //     <div style={{width: "30px", marginLeft: "-30px", color: "var(--primaryText)"}}>
             //         <ArrowForwardIosOutlinedIcon />
             //     </div>
-        };
-
-        const SlideProperties = {
-            duration: 5000,
-            transitionDuration: 500,
-            infinite: true,
-            autoplay: false,
-            easing: 'ease',
-            prevArrow: 
-                <div style={{width: "30px", marginRight: "-30px", color: "var(--primaryText)"}}>
-                    <ArrowBackIosOutlinedIcon />
-                </div>,
-            nextArrow: 
-                <div style={{width: "30px", marginLeft: "-30px", color: "var(--primaryText)"}}>
-                    <ArrowForwardIosOutlinedIcon />
-                </div>
         }
 
         return (
@@ -143,33 +146,13 @@ class EducationPage extends React.Component{
                         </div>
                     </div>
                     <div className='slides'>
-                        <Slide {...SlideProperties}>
-                            <div className='slideSection' id="relativeCourses">
+                        <div className='slideSection' id="relativeCourses">
                                 <div className='title'>Related Courses</div>
                                 <Fade 
                                     {...properties}>
                                     {courseContainer}
                                 </Fade>
                             </div>
-                            <div className='slideSection'>
-                                <div className='title'>Experience</div>
-                                <div className='courses'>
-                                    <div className='semesterTitle'>NCSA SPIN Intern</div>
-                                    <div className='description'>
-                                        &emsp;I am currently a Students Push Innovation&nbsp;
-                                        <a 
-                                            href="http://spin.ncsa.illinois.edu/about/" target="_blank" rel="noreferrer"
-                                            style={{color: "var(--primaryText)", fontWeight: 'light', fontFamily: 'Lora-Italic'}}>
-                                                (SPIN)
-                                        </a> 
-                                        &nbsp;Intern at the National Center for Supercomputing Application located at Champaign, Illinois. I am in Dr. Kaiyu Guan's lab, which is conducting research on using novel satellite data from the NASA satellites to study environmental impact on global and U.S. agriculture productivity.
-                                    </div>
-                                    <div className='description'>
-                                        &emsp;I have been primarily working on two research projects. The first one is Tillage Classification, and the second one is Cow Instance Segmentation. Both have practical means in assisting the ongoing research conducted, and these are related to Machine Learning and Computer Vision. If you are interested, please visit the Portfolio page for more information.
-                                    </div>
-                                </div>
-                            </div>
-                        </Slide>
                     </div>
                 </div>
                 <Link to="/education/seton" className='setonButton'>
@@ -177,9 +160,6 @@ class EducationPage extends React.Component{
                         <SchoolIcon />
                     </Button>
                 </Link>
-                {/* <Button onClick = {() => {this.handleStyleChange()}} className = "MobileTheme" >
-                    {this.state.theme === 'light' ? <NightsStayIcon className = "MobileThemeButton"/> : <Brightness5Icon className = "buttonIcon"/>}
-                </Button> */}
             </div>
         )
     }

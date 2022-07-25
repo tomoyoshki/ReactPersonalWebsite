@@ -3,37 +3,72 @@
         "year": 2022,
         "semesters": [
             {
+                "semester": "fall",
+                "courses": [
+                    {
+                        "title": "Distributed System",
+                        "type": "CS",
+                        "number": 425,
+                        "grade": "IP"
+                    },
+                    {
+                        "title": "Operating System",
+                        "type": "CS",
+                        "number": 423,
+                        "grade": "IP"
+                    },
+                    {
+                        "title": "Algorithmic Market Microstructure",
+                        "type": "FIN",
+                        "number": 556,
+                        "grade": "IP"
+                    },
+                    {
+                        "title": "Art of Web Programming",
+                        "type": "CS",
+                        "number": 409,
+                        "grade": "IP"
+                    },
+                    {
+                        "title": "Writing across media",
+                        "type": "INFO",
+                        "number": 303,
+                        "grade": "IP"
+                    }
+                ]
+            },
+            {
                 "semester": "spring",
                 "courses": [
                     {
                         "title": "Computer Security",
                         "type": "CS",
                         "number": 461,
-                        "grade": "IP"
+                        "grade": "Interest"
                     },
                     {
                         "title": "Machine Learning",
                         "type": "CS",
                         "number": 446,
-                        "grade": "IP"
+                        "grade": "A-"
                     },
                     {
                         "title": "Introduction to Algorithms & Models of Computation",
                         "type": "CS",
                         "number": 374,
-                        "grade": "IP"
+                        "grade": "A"
                     },
                     {
-                        "title": "Topics in Internet of Things",
+                        "title": "Introduction to Machine Perception",
                         "type": "CS",
-                        "number": 437,
-                        "grade": "IP"
+                        "number": 498,
+                        "grade": "A+"
                     },
                     {
                         "title": "High Frequency Trading",
                         "type": "IE",
                         "number": 498,
-                        "grade": "IP"
+                        "grade": "A"
                     }
                 ]
             }

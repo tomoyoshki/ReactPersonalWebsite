@@ -10,13 +10,19 @@ class AboutPage extends React.Component{
         this.state = {
             width: window.innerWidth
         }
-        // this.myRef = React.createRef()   // Create a ref object 
-
     }
 
     componentDidMount() {
         window.scrollTo(0, 0);
         window.addEventListener('resize', this.handleWindowSizeChange);
+        const img = new Image();
+        img.src = "../assets/tk.JPG";
+        const imagesPreload = [pic];
+        imagesPreload.forEach((image) => {
+            const newImage = new Image();
+            newImage.src = image;
+            window[image] = newImage;
+        });
     }
 
     componentWillUnmount() {

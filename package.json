@@ -1,6 +1,4 @@
 {
-  "homepage": "http://tomoyoshki.github.io/personal_website",
-  "name": "personal_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

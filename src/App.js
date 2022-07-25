@@ -41,9 +41,6 @@ handleStyleChange = () => {
     document.onselectstart = () => {
       return false;
     }
-    // const { width } = this.state;
-    // const isMobile = width <= 100;
-    // the rest is the same...
     
     return (
     <div>
