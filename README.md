@@ -1,3 +1,3 @@
-# Tomoyoshi Kimura's personal website via React
+# Personal Website react
 
 www.tomoyoshikimura.com
